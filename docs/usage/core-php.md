@@ -27,6 +27,13 @@ ddump(new MyClass());
 ddump('First', 'Second', 'Third');
 ```
 
+You can also use `ddie` function to dump your variables or objects to the app and stop the code. Here is an example of
+
+```php
+ddie('Hello world!');
+```
+
+
 Or you can use `DevDumper` class to dump your variables or objects to the app. Here is an example of how you can use
 DevDumper in your PHP code:
 
