@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        DevDumper is a simple and easy to use tool for debugging your applications. It is designed to be easy to use and easy to understand.
       </>
     ),
   },
@@ -18,18 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        DevDumper is designed to help you focus on what matters. It is designed to help you debug your applications and find the root cause of the problem.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Fast and Reliable',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        DevDumper is fast and reliable. It is designed to help you debug your applications quickly and efficiently.
       </>
     ),
   },
