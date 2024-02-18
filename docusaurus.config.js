@@ -84,26 +84,26 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              // {
-              //   label: 'Introduction',
-              //   to: '/docs/intro',
-              // },
-              // {
-              //   label: 'Getting Started',
-              //   to: '/docs/getting-started',
-              // },
-              // {
-              //   label: 'Requirements',
-              //   to: '/docs/requirements',
-              // },
-              // {
-              //   label: 'Desktop Application',
-              //   to: '/docs/category/desktop-application',
-              // },
-              // {
-              //   label: 'Usage',
-              //   to: '/docs/category/usage',
-              // },
+              {
+                label: 'Introduction',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Getting Started',
+                to: '/docs/getting-started',
+              },
+              {
+                label: 'Requirements',
+                to: '/docs/requirements',
+              },
+              {
+                label: 'Desktop Application',
+                to: '/docs/category/desktop-application',
+              },
+              {
+                label: 'Usage',
+                to: '/docs/category/usage',
+              },
             ],
           },
           {
