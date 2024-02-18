@@ -34,8 +34,29 @@ DevDumper in your PHP code:
 use ArdaGnsrn\DevDumper\DevDumper;
 
 $dumper = new DevDumper();
-$dumper->dump(...$args);
+$dumper->dump('First', 'Second', 'Third');
 ```
+
+### Play With Colors
+
+You can use colors in your dumped variables or objects. Here is an example of how you can use colors in your dumped.
+
+ - **Usable colors:** `green` `orange` `red` `purple` `blue` `gray`
+ - **Default color:** `blue`
+
+```php
+ddump('Hello world!')->color('red');
+```
+
+### Die
+
+You can use `die` method to stop the code after dumping your variables or objects. Here is an example of how you can use
+
+```php
+ddump('Hello world!')->die();
+```
+
+
 
 ## Example
 
@@ -49,20 +70,6 @@ $users = [
 ];
 
 foreach ($users as $user) {
-    ddump($user); // only first user will be dumped, code will stop here
+    ddie($user); // only first user will be dumped, code will stop here
 }
-```
-
-## Advanced Usage
-
-You can use the `Client` class to send your payloads to the app. Here is an example of how you can use the `Client`.
-
-```php 
-$variable = 'Hello world!';
-
-$payloadFactory = (new \ArdaGnsrn\DevDumper\PayloadFactory())
-    ->setPayload(new \ArdaGnsrn\DevDumper\Payloads\ContentPayload($variable))
-    ->setPayload(new \ArdaGnsrn\DevDumper\Payloads\ColorPayload('green'));
-
-(new \ArdaGnsrn\DevDumper\Client())->sendPayload($payloadFactory);
 ```
