@@ -6,4 +6,4 @@ sidebar_position: 3
 
 **Desktop App:** Windows 7 or higher
 
-**PHP Package:** PHP 7.0 or higher
+**PHP Package:** PHP 7.4 or higher
